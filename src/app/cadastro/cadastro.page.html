@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Voltar</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content [fullscreen]="true">
+  <div id="container">
+  
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title><strong>O que deseja cadastrar?</strong></ion-card-title>
+      </ion-card-header>
+  
+  
+      <div class="Cliente">
+       
+        <div class="buttoncliente">
+         <ion-button  routerLink="/cadastro" shape="round"><ion-icon slot="start" name="people"></ion-icon>Cliente</ion-button>
+        </div>
+
+        <div class="imgcliente">
+         <img src="https://www.maracanau.ce.gov.br/wp-content/uploads/2016/03/shutterstock_118434673.jpg">
+        </div>
+
+      </div>
+
+
+      <div class="Produto">
+     
+       <div class="buttonproduto">
+         <ion-button  routerLink="/consulta" shape="round"><ion-icon slot="start" name="cube"></ion-icon>Produto</ion-button>
+       </div>  
+
+       <div class="imgproduto">
+        <img src="https://batranslog.com/wp-content/uploads/2020/10/mudanca.jpg">
+       </div>
+
+      </div>
+
+
+
+    </ion-card> 
+
+  </div>
+
+  
+</ion-content>
+

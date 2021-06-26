@@ -14,9 +14,15 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 26px;
   color: #2B2D42;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;  
+  border-bottom: 4px solid #F8F32B;
 }
 
 #container p {
@@ -47,25 +53,48 @@ ion-content{
   --background:#2B2D42;
 }
 
- ion-card{
+ion-card{
    border-radius: 20px;
    position: relative;
-   margin-left: 35%;
-   margin-right: 35%;
-   padding: 20px;
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 5%;
+   padding: 30px;
    --background: #8D99AE;
    box-shadow: 0 8px #F8F32B;
- }
+}
 
- ion-card-content{
-   color: #2B2D42;
-   --background: #8D99AE;
- }
+ion-card-header{
+margin-bottom: 40px;
+}
 
- ion-button{
+ion-toolbar{
+  color: #2B2D42;
+  --background:#F8F32B;
+  border-radius: 1px 1px 20px 20px; 
+}
+
+
+ion-button{
    color: black;
    padding: 0px;
    margin: 10px;
    font-size: 15px;
    --background: #F8F32B;
- }
+}
+
+div .Cliente, .Produto{
+    display: inline-block;
+}
+
+img{
+    width: 350px;
+    height: 250px; 
+    border-radius: 20px;
+    box-shadow: 0 10px #F8F32B;
+}
+
+div .Cliente{
+    margin-right: 100px;
+}
+

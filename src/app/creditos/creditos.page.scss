@@ -1,0 +1,35 @@
+ion-content{
+    --background: #2B2D42; 
+}
+
+ion-toolbar{
+    color: #2B2D42;
+    --background:#F8F32B;
+    border-radius: 1px 1px 20px 20px; 
+  }
+
+ion-card{
+    margin-left: 10%;
+    margin-right: 10%;
+    --background: #8D99AE;
+    box-shadow:0 10px #F8F32B;
+    border-radius: 15px;
+}
+
+ion-card-content{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+ion-card-title{
+    color: #fff;
+    size: 30px;
+}
+
+ion-item{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}

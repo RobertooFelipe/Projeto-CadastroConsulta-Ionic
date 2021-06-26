@@ -1,20 +1,30 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+  <ion-content [fullscreen]="true">
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+    <h1>Atividade Linguagem de Programação II</h1>
+  
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title><strong>Funções de Cadastro</strong></ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Neste projeto, a ideia é criar um aplicativo que permita o cadastramento 
+       (Inclusão, consulta, alteração  e exclusão) de Clientes e Produtos.
+
+
+    </ion-card-content>
+      <ion-button expand="block" routerLink="/cadastro" shape="round"><ion-icon slot="start" name="people"></ion-icon>Cadastrar</ion-button>
+      <ion-button expand="block" routerLink="/consulta" shape="round"><ion-icon slot="start" name="menu"></ion-icon>Consultar</ion-button>
+      <ion-button expand="block" routerLink="/creditos" shape="round"><ion-icon slot="start" name="person"></ion-icon>Créditos</ion-button>
+    </ion-card> 
+
   </div>
+
+  
 </ion-content>
+
