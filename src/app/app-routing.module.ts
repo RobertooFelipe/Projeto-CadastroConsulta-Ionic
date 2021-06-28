@@ -23,6 +23,22 @@ const routes: Routes = [
     path: 'creditos',
     loadChildren: () => import('./creditos/creditos.module').then( m => m.CreditosPageModule)
   },
+  {
+    path: 'cadastrocli',
+    loadChildren: () => import('./cadastrocli/cadastrocli.module').then( m => m.CadastrocliPageModule)
+  },
+  {
+    path: 'cadastroprod',
+    loadChildren: () => import('./cadastroprod/cadastroprod.module').then( m => m.CadastroprodPageModule)
+  },
+  {
+    path: 'consultaprod',
+    loadChildren: () => import('./consultaprod/consultaprod.module').then( m => m.ConsultaprodPageModule)
+  },
+  {
+    path: 'consultacli',
+    loadChildren: () => import('./consultacli/consultacli.module').then( m => m.ConsultacliPageModule)
+  },
 ];
 
 @NgModule({
